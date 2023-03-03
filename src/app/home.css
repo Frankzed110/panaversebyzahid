@@ -1,0 +1,35 @@
+/* h1 {
+    color: darkkhaki;
+    font-size: 50px;
+    text-align: center;
+} */
+
+/* .header {
+    color: rgb(23, 237, 26);
+    font-size: 50px;
+    text-align: center;
+}
+
+.mt {
+    margin-top: 5px;
+} */
+
+/* After installing tailwind we have commented the above css styling */
+
+
+
+/* ////////////////this was before tailwind ///////////// */
+/* Box {
+    background-color: rgb(248, 161, 47);
+} */
+/* color cannot apply to box because it is chakra component */
+/* div { */
+/* background-color: rgb(255, 97, 39); */
+/* } */
+/* even whole div can be managed here, so i have added box to it */
+/* this was taught by hamza syed and i have added this additionally here */
+/* we always put dot before className */
+
+/* ////////////////this was before tailwind ///////////// */
+
+/* we will not use home.css after tailwind css */
