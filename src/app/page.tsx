@@ -1,9 +1,9 @@
 "use client";
 
-import { ChakraProvider } from '@chakra-ui/react'
+import { ChakraProvider } from '@chakra-ui/react';
 import Banner from './components/Banner';
-import Footer from './components/Footer'
-import Header from './components/Header'
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 export default function page() {
   return <ChakraProvider>

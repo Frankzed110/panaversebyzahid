@@ -1,6 +1,7 @@
 import { Box, Center, Container, Heading, Image, Text, Flex, SimpleGrid } from '@chakra-ui/react'
 // import React from 'react'
 import { data } from '../components/database'
+import { RevealList, RevealWrapper } from  'next-reveal'
 
 // interface data {
 //     id:number,
@@ -16,6 +17,7 @@ export default function Instructors() {
                 <Center>
                     <Heading> Our Instructors</Heading>
                 </Center>
+                <RevealWrapper origin='top' delay={400} duration={1000} distance='500px' reset={true}>
                 <Flex flexDir='row'>
                     {data.map((ins) => (
                     <Box key={ins.id}>
@@ -26,7 +28,8 @@ export default function Instructors() {
                         <Text textAlign='center'fontSize='md' pb='20px'>{ins.text}</Text>
                     </Box>
                     ))}
-                </Flex>
+                    </Flex>
+                    </RevealWrapper>
             </Container>
         </Box>
     )

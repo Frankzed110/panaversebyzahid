@@ -16,11 +16,11 @@ export default function Header() {
     // </>
     <Box boxShadow="lg">
       <Container maxW={1400}>
-        <SimpleGrid templateColumns={{lg:"repeat(3, 1fr)", base:"repeat(2, 1fr)"}}>
+        <SimpleGrid templateColumns={{ lg: "repeat(3, 1fr)", base: "repeat(2, 1fr)" }}>
           <Box>
             <Image src={logobyzahid} alt="panaversebyzahid"></Image>
           </Box>
-          <Flex 
+          <Flex
             display={{ lg: "flex", base: "none" }}
             placeItems="center"
             color={"black"}
@@ -35,11 +35,11 @@ export default function Header() {
             <Link href="/contact"> Contact </Link>
           </Flex>
           <Box display={{ lg: "flex", base: "none" }}>
-            <Button mt="10px" size="lg" colorScheme="teal" float="right">
+            <Button pr="100px" mt="10px" size="lg" colorScheme="teal" float="right">
               Apply
             </Button>
           </Box>
-          <Box pt='40px' display={{base:'initial' , lg: 'none'}}>
+          <Box pt='40px' display={{ base: 'initial', lg: 'none' }}>
             <Menu>
               <MenuButton float='right'
                 as={IconButton}
@@ -49,19 +49,19 @@ export default function Header() {
               />
               <MenuList>
                 <MenuItem>
-                <Link href="/"> Home </Link>
+                  <Link href="/"> Home </Link>
                 </MenuItem>
                 <MenuItem>
-                <Link href="/syllabus"> Syllabus </Link>
+                  <Link href="/syllabus"> Syllabus </Link>
                 </MenuItem>
                 <MenuItem>
-                <Link href="/explore"> Explore </Link>
+                  <Link href="/explore"> Explore </Link>
                 </MenuItem>
                 <MenuItem>
-                <Link href="/about"> About </Link>
+                  <Link href="/about"> About </Link>
                 </MenuItem>
                 <MenuItem>
-                <Link href="/contact"> Contact </Link>
+                  <Link href="/contact"> Contact </Link>
                 </MenuItem>
               </MenuList>
             </Menu>
